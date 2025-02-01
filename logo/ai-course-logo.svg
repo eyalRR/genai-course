@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background circle with gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#81D4FA;stop-opacity:0.3"/>
+    </linearGradient>
+    
+    <!-- Neural network connection gradient -->
+    <linearGradient id="connectionGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#81D4FA;stop-opacity:0.6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main background circle -->
+  <circle cx="200" cy="200" r="190" fill="url(#bgGradient)" />
+  
+  <!-- Neural network nodes and connections -->
+  <g id="neuralNetwork">
+    <!-- Central node (representing AI) -->
+    <circle cx="200" cy="200" r="40" fill="#4A90E2" opacity="0.9">
+      <animate attributeName="r" values="40;42;40" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Outer nodes (representing community) -->
+    <g id="outerNodes">
+      <circle cx="140" cy="140" r="25" fill="#81D4FA" opacity="0.8"/>
+      <circle cx="260" cy="140" r="25" fill="#81D4FA" opacity="0.8"/>
+      <circle cx="140" cy="260" r="25" fill="#81D4FA" opacity="0.8"/>
+      <circle cx="260" cy="260" r="25" fill="#81D4FA" opacity="0.8"/>
+    </g>
+    
+    <!-- Connecting lines -->
+    <g id="connections" stroke="url(#connectionGradient)" stroke-width="3">
+      <line x1="140" y1="140" x2="200" y2="200"/>
+      <line x1="260" y1="140" x2="200" y2="200"/>
+      <line x1="140" y1="260" x2="200" y2="200"/>
+      <line x1="260" y1="260" x2="200" y2="200"/>
+    </g>
+    
+    <!-- Pulsing circles around outer nodes -->
+    <g fill="none" stroke="#81D4FA" opacity="0.3">
+      <circle cx="140" cy="140" r="20">
+        <animate attributeName="r" values="20;30;20" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.3;0;0.3" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="260" cy="140" r="20">
+        <animate attributeName="r" values="20;30;20" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+        <animate attributeName="opacity" values="0.3;0;0.3" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+      </circle>
+      <circle cx="140" cy="260" r="20">
+        <animate attributeName="r" values="20;30;20" dur="2s" repeatCount="indefinite" begin="1s"/>
+        <animate attributeName="opacity" values="0.3;0;0.3" dur="2s" repeatCount="indefinite" begin="1s"/>
+      </circle>
+      <circle cx="260" cy="260" r="20">
+        <animate attributeName="r" values="20;30;20" dur="2s" repeatCount="indefinite" begin="1.5s"/>
+        <animate attributeName="opacity" values="0.3;0;0.3" dur="2s" repeatCount="indefinite" begin="1.5s"/>
+      </circle>
+    </g>
+  </g>
+
+  <!-- Small decorative elements -->
+  <g id="decorativeElements" fill="#4A90E2" opacity="0.4">
+    <circle cx="200" cy="120" r="5"/>
+    <circle cx="200" cy="280" r="5"/>
+    <circle cx="120" cy="200" r="5"/>
+    <circle cx="280" cy="200" r="5"/>
+  </g>
+</svg>

@@ -1,16 +1,17 @@
 name: genaienv
 channels:
   - conda-forge
+  - defaults
 dependencies:
-  # - python=3.12
-  # - pandas
-  # - jupyter
-  # - ipykernel
-  # - ipywidgets
-  # - pydantic
-  # - openai 
-  # - pytesseract
-  # - opencv
-  - import-ipynb
+  - python=3.12
+  - ipywidgets
+  - pydantic
   - requests
-  - json
+  - jupyter
+  - ipykernel
+  - pip
+  - pip:
+    - openai
+    - import-ipynb
+    - anthropic
+    - python-dotenv

@@ -8,3 +8,6 @@ venv/
 
 # Large binary or generated files (if needed)
 *.log
+
+# Large videos
+recordings/
