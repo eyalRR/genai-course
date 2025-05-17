@@ -17,3 +17,5 @@ dependencies:
     - python-dotenv
     - IPython
     - replicate
+    - gradio
+
