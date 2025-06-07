@@ -7,17 +7,9 @@
 
 This course is designed to introduce you to the exciting world of Generative AI, providing you with the foundational knowledge and practical skills to create amazing AI-powered applications. Whether you're a student, a developer, or just curious about AI, this course will guide you through the essential concepts and techniques.
 
-## ברוכים הבאים לקורס Generative AI!
-
-קורס זה נועד להכיר לכם את העולם המרתק של Generative AI, ולספק לכם את הידע הבסיסי והמיומנויות המעשיות ליצירת יישומים מדהימים המופעלים על ידי AI. בין אם אתה סטודנט, מפתח או סתם סקרן לגבי AI, קורס זה ידריך אותך דרך המושגים והטכניקות החיוניות.
-
 ## Why Learn Generative AI?
 
 Generative AI is revolutionizing industries by enabling the creation of new content, automating tasks, and enhancing creativity. From generating realistic images and audio to writing compelling text and code, the possibilities are endless. This course will equip you with the skills to harness the power of GenAI and build innovative solutions.
-
-## למה ללמוד Generative AI?
-
-Generative AI מחוללת מהפכה בתעשיות על ידי יצירת תוכן חדש, אוטומציה של משימות ושיפור היצירתיות. מיצירת תמונות ואודיו מציאותיים ועד לכתיבת טקסט וקוד משכנעים, האפשרויות הן אינסופיות. קורס זה יצייד אותך במיומנויות לרתום את הכוח של GenAI ולבנות פתרונות חדשניים.
 
 ## What You Will Learn
 
@@ -29,17 +21,6 @@ In this course, you will learn:
 *   Image, audio, and video generation methods.
 *   How to build interactive interfaces with Gradio.
 *   How to use AI-powered programming tools.
-
-## מה תלמדו
-
-בקורס זה, תלמדו:
-
-*   מושגי תכנות בסיסיים בפייתון.
-*   כיצד להשתמש בממשקי API שונים של Generative AI (OpenAI, Claude, Perplexity).
-*   טכניקות הנדסת פרומפטים ליצירת תוכן איכותי.
-*   שיטות ליצירת תמונות, אודיו ווידאו.
-*   כיצד לבנות ממשקים אינטראקטיביים עם Gradio.
-*   כיצד להשתמש בכלי תכנות המופעלים על ידי AI.
 
 ## Course Syllabus
 
@@ -103,6 +84,64 @@ This course is structured into several sections, guiding you from foundational p
 *   **Section 8: Final Project**
     *   Guidance and requirements for the final course project.
 
+## Getting Started
+
+To get started with the course, you will need:
+
+*   Python 3.6 or higher
+*   Jupyter Notebook
+*   API keys for OpenAI, Claude, and Perplexity (instructions provided in the relevant sections)
+
+1.  Clone this repository:
+
+    ```bash
+    git clone [repository URL]
+    ```
+
+2.  Install the required dependencies:
+
+    ```bash
+    conda env create -f lessons/EnvGenAi.yml
+    conda activate GenAi
+    pip install -r requirements.txt
+    ```
+
+3.  Open the Jupyter notebooks and start learning!
+
+## Repository Structure
+
+The repository is organized as follows:
+
+*   `lessons/`: Contains the course materials, divided into sections.
+*   `exercises/`: Contains the exercises for each section.
+*   `solutions/`: Contains the solutions for the exercises.
+*   `presentation/`: Contains the presentation slides for each section.
+*   `images/`: Contains images used in the course materials.
+*   `logo/`: Contains the course logo.
+
+## Contributing
+
+If you find any issues or have suggestions for improvements, feel free to open a pull request.
+
+## ברוכים הבאים לקורס Generative AI!
+
+קורס זה נועד להכיר לכם את העולם המרתק של Generative AI, ולספק לכם את הידע הבסיסי והמיומנויות המעשיות ליצירת יישומים מדהימים המופעלים על ידי AI. בין אם אתה סטודנט, מפתח או סתם סקרן לגבי AI, קורס זה ידריך אותך דרך המושגים והטכניקות החיוניות.
+
+## למה ללמוד Generative AI?
+
+Generative AI מחוללת מהפכה בתעשיות על ידי יצירת תוכן חדש, אוטומציה של משימות ושיפור היצירתיות. מיצירת תמונות ואודיו מציאותיים ועד לכתיבת טקסט וקוד משכנעים, האפשרויות הן אינסופיות. קורס זה יצייד אותך במיומנויות לרתום את הכוח של GenAI ולבנות פתרונות חדשניים.
+
+## מה תלמדו
+
+בקורס זה, תלמדו:
+
+*   מושגי תכנות בסיסיים בפייתון.
+*   כיצד להשתמש בממשקי API שונים של Generative AI (OpenAI, Claude, Perplexity).
+*   טכניקות הנדסת פרומפטים ליצירת תוכן איכותי.
+*   שיטות ליצירת תמונות, אודיו ווידאו.
+*   כיצד לבנות ממשקים אינטראקטיביים עם Gradio.
+*   כיצד להשתמש בכלי תכנות המופעלים על ידי AI.
+
 ## סילבוס הקורס
 
 קורס זה בנוי ממספר חלקים, המנחים אותך ממושגי תכנות בסיסיים ועד לטכניקות וכלי AI גנרטיביים מתקדמים.
@@ -165,30 +204,6 @@ This course is structured into several sections, guiding you from foundational p
 *   **חלק 8: פרויקט גמר**
     *   הנחיות ודרישות לפרויקט הגמר של הקורס.
 
-## Getting Started
-
-To get started with the course, you will need:
-
-*   Python 3.6 or higher
-*   Jupyter Notebook
-*   API keys for OpenAI, Claude, and Perplexity (instructions provided in the relevant sections)
-
-1.  Clone this repository:
-
-    ```bash
-    git clone [repository URL]
-    ```
-
-2.  Install the required dependencies:
-
-    ```bash
-    conda env create -f lessons/EnvGenAi.yml
-    conda activate GenAi
-    pip install -r requirements.txt
-    ```
-
-3.  Open the Jupyter notebooks and start learning!
-
 ## איך להתחיל
 
 כדי להתחיל עם הקורס, תצטרך:
@@ -213,17 +228,6 @@ To get started with the course, you will need:
 
 3.  פתח את מחברות Jupyter והתחל ללמוד!
 
-## Repository Structure
-
-The repository is organized as follows:
-
-*   `lessons/`: Contains the course materials, divided into sections.
-*   `exercises/`: Contains the exercises for each section.
-*   `solutions/`: Contains the solutions for the exercises.
-*   `presentation/`: Contains the presentation slides for each section.
-*   `images/`: Contains images used in the course materials.
-*   `logo/`: Contains the course logo.
-
 ## מבנה המאגר
 
 המאגר מאורגן כדלקמן:
@@ -234,10 +238,6 @@ The repository is organized as follows:
 *   `presentation/`: מכיל את שקופיות המצגת לכל חלק.
 *   `images/`: מכיל תמונות המשמשות בחומרי הקורס.
 *   `logo/`: מכיל את סמל הקורס.
-
-## Contributing
-
-If you find any issues or have suggestions for improvements, feel free to open a pull request.
 
 ## תרומה
 
